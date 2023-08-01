@@ -3,7 +3,7 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Gallery = () => {
   return (
-    <div className="[&>a]:h-64 [&>a]:object-cover [&>a]:w-64 grid grid-md:cols-2 md:grid-md:cols-4 gap-8">
+    <div className="[&>img]:h-64 [&>img]:object-cover [&>img]:w-64 grid grid-cols-2 md:grid-cols-4 gap-8">
       <StaticImage
         src="../images/img/galeria/galeria_01.jpg"
         alt="galeria"
