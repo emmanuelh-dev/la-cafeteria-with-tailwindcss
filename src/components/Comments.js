@@ -1,4 +1,5 @@
 import React from 'react'
+import menu from '../../data/menu'
 
 const Comments = () => {
   return (
