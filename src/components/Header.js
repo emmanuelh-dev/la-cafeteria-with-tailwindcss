@@ -3,14 +3,14 @@ import { StaticImage } from "gatsby-plugin-image";
 
 const Header = () => {
   return (
-    <header className="relative">
+    <header className="relative h-screen">
       <div className="relative z-10 max-w-6xl mx-auto top-0 left-0">
         <div className="flex max-sm:flex-col items-center justify-between pt-16">
           <div className="w-52">
             <StaticImage src="../images/img/logo.svg" alt="logo cafeteria" />
           </div>
 
-          <nav className="flex max-sm:flex-col mt-2 [&>a]:text-white [&>a]:font-bold [&>a]:text-2xl gap-2">
+          <nav className="flex max-sm:flex-col mt-2 [&>a]:text-white [&>a]:font-bold [&>a]:text-2xl gap-2 text-center">
             <a className="" href="/">
               Inicio
             </a>
