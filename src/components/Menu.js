@@ -3,14 +3,14 @@ import menu from '../../data/menu';
 import MenuCard from './MenuCard';
 const Menu = () => {
   return (
-    <section class='w-screen bg-brown '>
-      <h2 class="bg-[url('../images/img/menu_arriba.svg')] mx-auto bg-no-repeat pt-20 pb-10 text-center bg-center text-white text-4xl">
+    <section className='w-screen bg-brown '>
+      <h2 className="bg-[url('../images/img/menu_arriba.svg')] mx-auto bg-no-repeat pt-20 pb-10 text-center bg-center text-white text-4xl">
         <span className='block text-2xl'>Nuestro delicioso</span>Menú
       </h2>
 
-      <div class='max-w-6xl mx-auto md:flex gap-4 max-sm:px-10'>
+      <div className='max-w-6xl mx-auto md:flex gap-4 max-sm:px-10'>
         {menu.map((category) => (
-          <section class='' key={category.category}>
+          <section className='' key={category.category}>
             <h3 className='uppercase text-center py-10 text-white text-3xl font-bold'>
               {category.category}
             </h3>

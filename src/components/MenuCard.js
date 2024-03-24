@@ -8,7 +8,7 @@ const MenuCard = (item) => {
       {name}
       <span className='font-normal'>{description}</span>
     </p>
-    <p class="text-4xl font-bold text-white">${price}</p>
+    <p className="text-4xl font-bold text-white">${price}</p>
   </li>
   )
 }
