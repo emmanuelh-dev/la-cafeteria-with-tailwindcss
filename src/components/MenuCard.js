@@ -1,14 +1,12 @@
 import React from 'react'
 
 const MenuCard = (item) => {
-  console.log(item.item)
   const {name, description, price} = item.item
-  console.log(name, description, price)
   return (
     <li>
-    <p>
+    <p className='font-bold'>
       {name}
-      <span>{description}</span>
+      <span className='font-normal'>{description}</span>
     </p>
     <p class="text-4xl font-bold text-white">${price}</p>
   </li>
